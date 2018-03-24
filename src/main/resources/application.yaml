@@ -1,0 +1,17 @@
+server.port: 8080
+spring.mvc.view.prefix: '/pages/'
+spring.mvc.view.suffix: '.jsp'
+
+application.url: http://localhost:8080/
+
+app.social:
+    login.enabled:
+        facebook: true
+        twitter: true
+
+    facebook: #this values are obtained from: https://developers.facebook.com/apps
+        appId: 'appId'
+        appSecret: 'secretId'
+    twitter:  #this values are obtained from: https://apps.twitter.com/
+        appId: 'appId'
+        appSecret: 'secretId'
